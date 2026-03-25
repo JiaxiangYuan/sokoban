@@ -14,19 +14,20 @@ public class Player : Block
 
     private void MoveInput()
     {
-        if (Input.GetKey(KeyCode.A))
+        //Changed the input to fit my keyboard (My "d" key broke)
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if (CheckMove(-1, 0)) transform.rotation = Quaternion.LookRotation(Vector3.left);
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             if (CheckMove(1, 0)) transform.rotation = Quaternion.LookRotation(Vector3.right);
         }
-        else if (Input.GetKey(KeyCode.W))
+        else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (CheckMove(0, -1)) transform.rotation = Quaternion.LookRotation(Vector3.back);
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             if (CheckMove(0, 1)) transform.rotation = Quaternion.LookRotation(Vector3.forward);
         }
