@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Jiaxiang Yuan's Level/Level1.unity
     guid: c4263fa6fb31f0e449871eac25abc406
   - enabled: 1
-    path: Assets/Scenes/Jiaxiang Yuan's Level/Level2.unity
+    path: Assets/Scenes/Jiaxiang Yuan's Level/Level3.unity
     guid: cce416893fcc10645a556d10643506d3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
