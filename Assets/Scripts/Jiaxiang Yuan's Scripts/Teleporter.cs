@@ -1,7 +1,10 @@
+using System;
 using UnityEngine;
 
 public class Teleporter : Block
 {
+    public static event Action OnAnyTeleportHappened;
+    
     [SerializeField]
     private Teleporter targetTeleporter;
 
@@ -74,5 +77,7 @@ public class Teleporter : Block
 
         hadBlockLastFrame = true;
         isTeleporting = false;
+        
+        OnAnyTeleportHappened?.Invoke();
     }
 }

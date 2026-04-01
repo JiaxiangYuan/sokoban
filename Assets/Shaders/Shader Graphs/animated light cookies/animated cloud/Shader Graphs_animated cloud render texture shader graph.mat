@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_animated cloud render texture shader graph
+  m_Shader: {fileID: -6465566751694194690, guid: 263af7dc23766854c96f620788849e36, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortTexture:
+        m_Texture: {fileID: 2800000, guid: 9abac536d596ae34aa17bc7855e011a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 64b82f862852ca24fabb4240f7e5f557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PrimaryNoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 64b82f862852ca24fabb4240f7e5f557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScrollingTexturetwoSpeed_6bd2bfe0dafe4a7591d9d59cf9a7eeca_Texture2D_1521282269_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 64b82f862852ca24fabb4240f7e5f557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryNoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 7620c4cfec684f742b779f530e688aa8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: 64b82f862852ca24fabb4240f7e5f557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DistortSpeed: 0.1
+    - _HorizontalSpeed: 0.01
+    - _PrimaryCutoff: 0.103
+    - _PrimaryNoiseSpeed: 3
+    - _PrimarySmoothness: 0.637
+    - _SecondaryCutoff: 0
+    - _SecondaryLayerStrength: 0.612
+    - _SecondaryNoiseSpeed: 1.5
+    - _SecondarySmoothness: 0.487
+    - _Smoothness: 0.575
+    - _TotalSpeed: 0.01
+    - _TotalStrength: 0.264
+    - _VerticalSpeed: 0.01
+    m_Colors:
+    - _Color: {r: 0.8742138, g: 0.8141547, b: 0.7889917, a: 0}
+    - _DistotScale: {r: 0.35, g: 0.32, b: 0, a: 0}
+    - _NoiseTextureTiling: {r: 7.12, g: 6.26, b: 0, a: 0}
+    - _PrimaryNoiseTextureTiling: {r: 4, g: 4, b: 0, a: 0}
+    - _SecondaryNoiseTextureTiling: {r: 0.56, g: 0.56, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
